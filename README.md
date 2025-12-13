@@ -1,6 +1,8 @@
 # FinFET_7nm-Circuit-Design-Characterization
 This workshop builds professional FinFET skills on **ASAP7 (7 nm)** using **Xschem/Ngspice** and open repositories. You’ll characterise **NFET/PFET** (Id–Vd, gm, ro), size an inverter, extract **VTC/noise margins**, and automate measure scripts. Next, simulate a **Self-Cascode MOS bandgap**, reproducing **Vref, line/load regulation**, and **temperature drift** with instructor decks. Run deterministic PVT sweeps and produce benchmarked, publication-ready plots. Graduated with a **validated 7 nm workflow** and a portfolio ready for advanced-node.
 
+<img width="820" height="447" alt="image" src="https://github.com/user-attachments/assets/f99af381-b173-4ab5-8dcd-e6f6be529238" />
+
 # Workshop Overview
 - FinFET Circuit Design and Characterisation is a hands-on workshop for advanced-node skills. Built directly on open repositories with the ASAP7 (7 nm) predictive platform, you will work in Xschem and Ngspice using BSIM-CMG device models. The curriculum follows an industry-aligned loop: design, simulate, verify, document — emphasising credible methods, reproducible datasets, and trusted figures that meet international expectations for research and product teams.
 
@@ -15,6 +17,42 @@ This workshop builds professional FinFET skills on **ASAP7 (7 nm)** using **Xsch
 - Math Readiness on Comfort with algebra, exponents, and plotting (no calculus required).
 - Basic Linux shell, Git, and plain-text editing (VS Code/Vim).
 - SPICE Exposure (Optional) Prior NGSpice/LTspice experience helps but is not required.
+
+# Workshop Daywise Content
+# Module 1
+- Technology Landscape & FinFET Foundations
+- Path to Zetta-Scale computing; introduction to FinFETs
+- CMOS evolution & inflection points; next-gen candidates
+- Scaling & variability: standard-cell area, parasitic R/C, electrical characteristics
+- 3D structures and BOEL innovations
+
+# Module 2
+- ASAP7 Setup & Device Characterization
+- Install ASAP7 (7 nm); configure Xschem/Ngspice with BSIM-CMG
+- Validate environment with first-run device plots
+- NFET/PFET Id–Vg/Id–Vd; extract gm, ro, bias points
+- Log CSVs; template scripts for repeatable runs
+
+# Module 3
+- FinFET Inverter Fundamentals
+- Fin quantization and sizing at 7 nm
+- Build inverter; generate VTC; compute Vm, NML/NMH
+- Measure static current, delay, and dynamic power
+- Sweep VDD, input-slew, and output-load
+
+# Module 4
+- Deterministic PVT Sign-off @ 7 nm
+- Corner decks: TT/FF/SS, VDD ±10%, −40 °C - 125 °C
+- Define pass/fail metrics and guard-bands
+- Corner summary sheet and design notes
+- Documentation practices for traceable results
+
+# Module 5
+- Precision Bandgap Reference (Self-Cascode MOS)
+- Topology, biasing, and startup at 7 nm
+- Reproduce repo figures: Vref–Temp, line/load regulation, r_out
+- Stability checks and supply/temperature sweeps
+- Package plots, tables, and a clean project repo
 
 # List of All Open-Source Tools Used
 
@@ -34,7 +72,9 @@ Shyam Razesh
 Acknowledgments
 -----
  [Mr. Kunal Ghosh](https://www.linkedin.com/in/kunal-ghosh-vlsisystemdesign-com-28084836/ ) 
-
+ 
+ [Soundarya Madhuri Royyuru](https://github.com/RSMadhuri66/Bandgap-Reference-Circuit-with-SCMB-with-ASAP-7nm-PDK-)
+ 
 Reference
 ----
 [FinFET Circuit Design & Characterization Program](https://www.vlsisystemdesign.com/7nm/)
