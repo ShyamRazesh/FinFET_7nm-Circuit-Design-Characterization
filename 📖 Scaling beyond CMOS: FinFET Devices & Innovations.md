@@ -79,6 +79,46 @@ FinFET (Fin Field-Effect Transistor) is a type of 3D transistor used in modern C
 
 - Overall, FinFET technology offers a balance of high performance, low power consumption, and robust scalability, which makes it far superior to planar MOSFETs in deep nanometer regimes.
 
+# <h1 id="header-1">3. FEOL Innovations</h1>	 
+
+- Front End of level Innovations through out history of CMOS technology. Because of these innovations sometimes it requies design rule changes & it effects circuit build & layout on chip.
+- While moores laws states no.of transistors are integrated, the rate at which tranistor integration increases, moore's law does not scpeifiy the performance of integrated circuit i.e where Dennard scaling era comes up.
+
+<img width="1024" height="572" alt="image" src="https://github.com/user-attachments/assets/b4c94271-f942-44f4-b3e7-ff19d8e835a5" />
+
+- It was 22nm in 2011 FinFET was introduced where was controlled.
+
+<img width="1122" height="579" alt="image" src="https://github.com/user-attachments/assets/3b2c66a1-e518-405c-8158-6de0ca224f75" />
+
+- FEOL Region (Device Level) This is the transistor body and source/drain region.
+- Symbol Meaning Description R_FEOL FEOL resistance The total resistance of the active device region (source/drain + channel).
+- It includes both intrinsic and extrinsic transistor parts.
+- R_EPI Epitaxial layer resistance Resistance due to the epitaxially grown silicon on which the source/drain regions are formed.
+- The epi layer helps with doping control and strain.
+- R_C Contact resistance The resistance between the metal contact and the semiconductor (source/drain). It depends on silicide quality (NiSi, CoSi₂, etc.) and doping level. 
+
+# <h1 id="header-1">4. BEOL Innovations</h1>	
+
+MOL Region (Contact + Local Interconnect) This section bridges the transistor terminals to the first metal layer.
+- Symbol Meaning Description R_MOL MOL total resistance Combination of vertical and lateral resistances from the contact plugs and local interconnect. R_TS Trench silicide resistance Resistance inside the silicided trench or source/drain extension region. It reflects the quality of the silicide and local doping. R_CA-TS Contact-to-trench-silicide resistance Interface resistance between the contact plug (CA) and the underlying silicided region (TS). R_CA Contact area (plug) resistance Resistance of the metal plug itself (tungsten, cobalt, or ruthenium). This is the vertical path in the MOL stack.
+- Vertical vs Lateral in MOL: Vertical → from transistor contact upward through the plug. Lateral → short horizontal interconnects that tie neighboring transistors locally before BEOL.
+
+ BEOL Region (Interconnect Stack) This is where global metal routing happens.
+- Symbol Meaning Description R_CA-BEOL Resistance between contact and BEOL layer Transition resistance where the MOL contact connects to the first BEOL metal layer (M1).
+- R_BEOL BEOL total resistance Resistance of the wiring metals and vias that form the larger interconnect network. It depends on metal type (Cu, Al) and wire geometry. 
+
+FEOL–MOL–BEOL Integration Stage Description Key Materials Purpose FEOL Transistor fabrication Si, SiO₂, HfO₂, metal gate Device formation MOL Contacts + local interconnect W, Co, Ru Bridge device to BEOL BEOL Global metal wiring Cu, Ru, low-k dielectric Signal routing Resistance Components
+
+R_FEOL: Source/drain and channel resistance
+
+R_MOL: Contact and local interconnect resistance
+
+R_BEOL: Metal/via network resistance
+
+
+
+
+
 
 
 
