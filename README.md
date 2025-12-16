@@ -65,6 +65,8 @@ This workshop builds professional FinFET skills on **ASAP7 (7 nm)** using **Xsch
 | Bash/Make Automation                   | One-command runs for sweeps, reproducible logs, and clean artifact directories|
 | Git + GitHub                          | Version control, issues, and a polished portfolio repo for career visibility.|
 
+Follow these in the below link to install & work on the labs
+[Lab Tool Installation](https://github.com/RSMadhuri66/avsdbgr_7nm)
 
 # Author:
 Shyam Razesh
